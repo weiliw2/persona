@@ -19,6 +19,7 @@ const Hero: React.FC = () => {
         </p>
       </div>
 
+{/* Updated to trigger a fresh build */}
       <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
         <Link
           href="/materials/documents/my_resume.pdf"
