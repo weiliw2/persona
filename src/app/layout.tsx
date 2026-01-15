@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "../components/Navbar";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -9,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Personal portfolio",
+  title: "Weilin Wang's Portfolio",
+  description: "Weilin Wang - Data Scientist & Environmental Analyst",
 };
 
 export default function RootLayout({
@@ -21,9 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${inter.variable} antialiased bg-neutral-950 text-neutral-100`}
+        className={`${inter.variable} font-sans antialiased bg-[var(--background)] text-[var(--foreground)]`}
         suppressHydrationWarning
       >
+        <Navbar />
         {children}
       </body>
     </html>

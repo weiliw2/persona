@@ -5,7 +5,7 @@
 # ========================================
 # REQUIRED: Basic Info
 # ========================================
-name: "Your Name"  # REQUIRED - your full name
+name: "Weilin Wang"  # REQUIRED - your full name
 cli: "claude-code"  # REQUIRED - AI CLI tool (claude-code, codex, gemini, aider, cursor, other)
 
 # ========================================

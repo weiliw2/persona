@@ -1,0 +1,95 @@
+name: "Weilin wang"
+email: "ww229@duke.edu"
+github: "https://github.com/weiliw2"
+linkedin: "https://www.linkedin.com/in/wang-weilin/"
+twitter: ""
+website: ""
+cli: "gemini"
+
+sections:
+  - hero
+  - experience
+
+design:
+  creativity: 5
+  simplicity: 7
+  playfulness: 4
+  animation: 5
+  color_intensity: 4
+design_inspirations:
+  - name: "Bruno Simon"
+    # Extracted attributes (use these programmatically)
+    attributes:
+      fontFamily: "Bold"
+      fontSize: 16
+      fontWeight: 400
+      letterSpacing: "normal"
+      colorBg: "#000000"
+      colorText: "#ffffff"
+      colorAccent: "#5e6ad2"
+      maxWidth: 1200
+      alignment: "full-width"
+      sectionSpacing: 14
+      padding: 40
+      motionDuration: 200
+      motionStyle: "fade"
+      borderWidth: 1
+      borderRadius: 0
+    # Original descriptions (for reference)
+    descriptions:
+      typography: "Bold sans-serif, 14-18px, clean UI"
+      colors: "Dark bg, white text, colorful 3D elements"
+      layout: "3D canvas full-screen, minimal UI overlay"
+      spacing: "UI elements: compact (12-16px), spacious canvas"
+      motion: "3D physics, interactive elements, smooth 60fps"
+      details: "WebGL rendering, car/road metaphor, gamified"
+  - name: "Brutalist Web Design"
+    # Extracted attributes (use these programmatically)
+    attributes:
+      fontFamily: "System"
+      fontSize: 16
+      fontWeight: 400
+      letterSpacing: "normal"
+      colorBg: "#000000"
+      colorText: "#ffffff"
+      colorAccent: "#5e6ad2"
+      maxWidth: 1200
+      alignment: "left"
+      sectionSpacing: 100
+      padding: 40
+      motionDuration: 200
+      motionStyle: "fade"
+      borderWidth: 1
+      borderRadius: 0
+    # Original descriptions (for reference)
+    descriptions:
+      typography: "System monospace, no custom fonts, 16px base"
+      colors: "Pure black/white, no grays, high contrast"
+      layout: "Single column, left-aligned, no grid, HTML default flow"
+      spacing: "Minimal padding, browser defaults, dense"
+      motion: "None - completely static"
+      details: "No shadows, underlined links, raw HTML aesthetic"
+
+content:
+  tone: "creative"
+  length: "balanced"
+  focus: "projects"
+
+ai:
+  quality_bar: 7
+  research_depth: 6
+  copy_creativity: 5
+
+notes: |
+  Add any context here about:
+  - What you do and what you want to emphasize
+  - Target roles or companies you're interested in
+  - Design inspirations you like
+  - Specific projects to highlight
+  - Your personality and how you want to come across
+  
+  Example:
+  "I'm a frontend engineer who loves performance optimization.
+  Targeting roles at dev tools companies. Design inspiration: Linear, Vercel.
+  Highlight my React library with 10K stars."
+  
